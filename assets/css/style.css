@@ -20,7 +20,7 @@
    * colors
    */
 
-  --violet-blue-crayola: hsla(234, 50%, 64%, 1);
+  --violet-blue-crayola: hsl(280.76deg 90.22% 34.63%);
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
   --white: hsla(0, 0%, 100%, 1);
   --white_a3: hsla(0, 0%, 100%, 0.03);
@@ -495,7 +495,7 @@ body.nav-active { overflow: hidden; }
 .service-card .card-icon {
   width: 60px;
   height: 60px;
-  background-color: var(--violet-blue-crayola);
+  background-color: hsl(284.07deg 86.52% 37.38%);
   display: grid;
   place-items: center;
   color: var(--white);
@@ -705,7 +705,7 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .footer {
-  background-color: var(--charcoal);
+  background-color: hsl(280.76deg 90.22% 34.63%);
   padding-block: 60px 100px;
   color: var(--light-gray);
 }
@@ -724,7 +724,7 @@ body.nav-active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover, :focus-visible) { color: var(--violet-blue-crayola); }
+.footer-link:is(:hover, :focus-visible) { color: var(--violet-white-crayola); }
 
 .input-wrapper {
   position: relative;
